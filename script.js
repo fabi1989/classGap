@@ -39,8 +39,8 @@ const ejercicio3 = document.getElementById('ejercicio3');
 ejercicio3.addEventListener('click', (e) => {
     console.log(e);
 
-    var dia = false;
-    if(dia === true) {
+    var dia = true;
+    if(dia) {
         console.log("es de dia")
     } else {
         console.log("es de noche")
@@ -70,10 +70,41 @@ ejercicio5.addEventListener('click', (e) => {
 const ejercicio6 = document.getElementById('ejercicio6');
 ejercicio6.addEventListener('click', (e) => {
     console.log(e);
-    const constante = 12;
-    console.log("el valor es:" + constante);
+    
+    function convar (){
+        console.log(1);
+        return "hola";
+    }
+
+    var saludo = convar();
+    console.log(saludo);
     
 })
+
+//7
+
+const ejercicio7 = document.getElementById('ejercicio7');
+ejercicio7.addEventListener('click', (e) => {
+    console.log(e);
+    
+    function conlet (){
+        console.log(1);
+        return "chao";
+    }
+
+    let saludo = conlet();
+    console.log(saludo);
+})
+
+//8
+const ejercicio8 = document.getElementById('ejercicio8');
+ejercicio8.addEventListener('click', (e) => {
+    console.log(e);
+    
+})
+
+
+
 // FIN YO
 
 
@@ -160,8 +191,8 @@ Variables y tipos de datos:
 *Declara una variable con el valor null. Muestra su tipo usando typeof.
 Ámbitos y tipos de variables:
 
--Declara una variable con var fuera de una función y trata de acceder a ella dentro de la función.
--Haz lo mismo pero con let.
+*Declara una variable con var fuera de una función y trata de acceder a ella dentro de la función.
+*Haz lo mismo pero con let.
 Declara una constante que represente los días de la semana y trata de reasignarla.
 Declara una variable dentro de un bloque if usando var y accede a ella fuera del bloque.
 Haz lo mismo pero con let.
