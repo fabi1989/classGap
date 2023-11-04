@@ -1,4 +1,39 @@
-#boton{
-    margin-top: 4px;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(173, 214, 248);
+}
+
+li a{ 
+    float: left;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(23, 21, 21);
+}
+
+
+.section_forms{
+    width: 400px;
+    background: rgb(173, 214, 248);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
