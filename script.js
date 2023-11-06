@@ -72,7 +72,7 @@ ejercicio6.addEventListener('click', (e) => {
     console.log(e);
     
     function convar (){
-        console.log(1);
+        console.log();
         return "hola";
     }
 
@@ -88,7 +88,7 @@ ejercicio7.addEventListener('click', (e) => {
     console.log(e);
     
     function conlet (){
-        console.log(1);
+        console.log();
         return "chao";
     }
 
