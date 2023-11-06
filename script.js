@@ -66,13 +66,12 @@ ejercicio5.addEventListener('click', (e) => {
     console.log(typeof nula);
 })
 
-//6 
+//6 es necesario el consol.log dentro del hambito de la funcion?o sobra? hay un orden ?
 const ejercicio6 = document.getElementById('ejercicio6');
 ejercicio6.addEventListener('click', (e) => {
     console.log(e);
     
     function convar (){
-        console.log();
         return "hola";
     }
 
@@ -81,8 +80,7 @@ ejercicio6.addEventListener('click', (e) => {
     
 })
 
-//7
-
+//7 aqui esta el consol log,
 const ejercicio7 = document.getElementById('ejercicio7');
 ejercicio7.addEventListener('click', (e) => {
     console.log(e);
@@ -100,6 +98,12 @@ ejercicio7.addEventListener('click', (e) => {
 const ejercicio8 = document.getElementById('ejercicio8');
 ejercicio8.addEventListener('click', (e) => {
     console.log(e);
+
+    const semana = {
+        dia:"lunes",
+    }
+    semana.nueva = "hoy es:" + "lunes";
+    console.log(semana.nueva);
     
 })
 
@@ -193,7 +197,7 @@ Variables y tipos de datos:
 
 *Declara una variable con var fuera de una función y trata de acceder a ella dentro de la función.
 *Haz lo mismo pero con let.
-Declara una constante que represente los días de la semana y trata de reasignarla.
+*Declara una constante que represente los días de la semana y trata de reasignarla.
 Declara una variable dentro de un bloque if usando var y accede a ella fuera del bloque.
 Haz lo mismo pero con let.
 Constantes:
