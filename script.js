@@ -138,12 +138,24 @@ const ejercicio11 = document.getElementById('ejercicio11');
 ejercicio11.addEventListener('click', (e) =>{
     console.log(e);
     
+    const GRAVEDADTIERRA = "9,8ms-2."
 
+    console.log(GRAVEDADTIERRA);
 })
 
+//12
 
 
 // FIN YO
+const ejercicio12 = document.getElementById('ejercicio12');
+ejercicio12.addEventListener('click', (e) =>{
+    console.log(e);
+    
+    const GRAVEDADTIERRA = "9,8ms-2."
+
+    console.log(GRAVEDADTIERRA);
+    
+})
 
 
 // # DOCUMENTACIÓN ################################################### //
@@ -236,7 +248,7 @@ Variables y tipos de datos:
 *Haz lo mismo pero con let.
 Constantes:
 
-Declara una constante que represente la gravedad de la Tierra y muestra su valor en la consola.
+*Declara una constante que represente la gravedad de la Tierra y muestra su valor en la consola.
 Intenta reasignar el valor de una constante y observa el error que se produce.
 Operadores:
 
