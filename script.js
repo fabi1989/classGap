@@ -107,6 +107,40 @@ ejercicio8.addEventListener('click', (e) => {
     
 })
 
+//9 acceder quiere decir mostrar por pantalla?
+const ejercicio9 = document.getElementById('ejercicio9');
+ejercicio9.addEventListener('click', (e) => {
+    console.log(e);
+
+    if(true){
+        var acceder = "entrar";
+    };
+
+    console.log(acceder);
+    
+})
+
+//10 que deberia poner en el prentesis alado del if?? 
+const ejercicio10 = document.getElementById('ejercicio10');
+ejercicio10.addEventListener('click', (e) => {
+    console.log(e);
+
+    if(true){
+        let enter = "entrar";
+    };
+
+    console.log("enter");
+
+})
+
+//11
+const ejercicio11 = document.getElementById('ejercicio11');
+ejercicio11.addEventListener('click', (e) =>{
+    console.log(e);
+    
+
+})
+
 
 
 // FIN YO
@@ -198,8 +232,8 @@ Variables y tipos de datos:
 *Declara una variable con var fuera de una función y trata de acceder a ella dentro de la función.
 *Haz lo mismo pero con let.
 *Declara una constante que represente los días de la semana y trata de reasignarla.
-Declara una variable dentro de un bloque if usando var y accede a ella fuera del bloque.
-Haz lo mismo pero con let.
+*Declara una variable dentro de un bloque if usando var y accede a ella fuera del bloque.
+*Haz lo mismo pero con let.
 Constantes:
 
 Declara una constante que represente la gravedad de la Tierra y muestra su valor en la consola.
